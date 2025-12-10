@@ -109,6 +109,10 @@ RetinaMoE is designed to work with publicly available multimodal datasets:
 
 ---
 
+![RetinaMoE Architecture](RetinaMoE_architecture.png)
+
+---
+
 ## **Experiments**
 
 ### **Tasks**
