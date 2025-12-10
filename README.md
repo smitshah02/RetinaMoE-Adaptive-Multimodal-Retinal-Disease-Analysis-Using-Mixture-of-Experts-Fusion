@@ -170,56 +170,6 @@ RetinaMoE provides:
 
 This enables clinicians to understand *why* the model made a particular prediction.
 
----
-
-## **Project Structure**
-
-```
-RetinaMoE/
-│
-├── data/              # Dataset loaders, preprocessing scripts
-├── models/            # Encoders, MoE, fusion modules
-├── gating/            # Soft-MoE gating network
-├── tasks/             # Classification, severity, segmentation heads
-├── utils/             # Training utilities, logging, metrics
-├── experiments/       # Configs and experiment scripts
-├── results/           # Evaluation outputs (to be filled)
-└── README.md          # Documentation
-```
-
----
-
-## **How to Run**
-
-### **1. Install Dependencies**
-
-```
-pip install -r requirements.txt
-```
-
-### **2. Prepare Datasets**
-
-Place datasets under:
-
-```
-data/OLIVES/
-data/OIA_ODIR_OCT/
-data/MULTIEYE/
-```
-
-### **3. Train the Model**
-
-```
-python train.py --config configs/retinamoe.yaml
-```
-
-### **4. Evaluate**
-
-```
-python evaluate.py --checkpoint checkpoints/retinamoe.pt
-```
-
----
 
 ## **References**
 
