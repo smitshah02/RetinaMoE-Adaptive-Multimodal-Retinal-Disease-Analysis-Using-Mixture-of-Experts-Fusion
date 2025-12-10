@@ -108,6 +108,7 @@ RetinaMoE is designed to work with publicly available multimodal datasets:
 * Cross-center variability (great for robustness)
 
 ---
+### **RetinaMoE Architecture**
 
 ![RetinaMoE Architecture](RetinaMoE_architecture.png)
 
