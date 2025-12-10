@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-RetinaMoE is a multimodal retinal disease analysis framework that integrates **fundus images**, **OCT scans**, and **clinical metadata** using a **Mixture-of-Experts (MoE)** architecture. Unlike traditional retinal AI systems that treat modalities independently or fuse them rigidly, RetinaMoE uses **adaptive gating** to determine which modality contributes most for each patient case. This design allows the model to shift its focus depending on disease type, image quality, and available modalities — closely mirroring how ophthalmologists reason through diagnoses.
+RetinaMoE is a multimodal retinal disease analysis framework that integrates **fundus images**, **OCT scans**, and **clinical metadata** using a **Mixture-of-Experts (MoE)** architecture. Unlike traditional retinal AI systems that treat modalities independently or fuse them rigidly, RetinaMoE uses **adaptive gating** to determine which modality contributes most for each patient case. This design allows the model to shift its focus depending on disease type, image quality, and available modalities which are closely mirroring how ophthalmologists reason through diagnoses.
 
 RetinaMoE supports **multi-task learning**, including:
 
